@@ -9,7 +9,6 @@ var userY = 0
 
 // Hide the treasure, also with x y values
 
-
 var getRandomNumber = function (size) {
 
   return Math.floor(Math.random() * size);
@@ -27,7 +26,6 @@ var target = {
     y: getRandomNumber(5)
 
   };
-
 
 // Flag that controls loop 
 var treasureFound = false 
